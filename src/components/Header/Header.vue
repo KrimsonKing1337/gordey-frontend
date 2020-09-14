@@ -11,11 +11,11 @@
     </div>
 
     <div class="contacts">
-      <a href="#" class="contact-item">
+      <a href="https://t.me/prkhdv" class="contact-item">
         Telegram
       </a>
 
-      <a href="#" class="contact-item">
+      <a href="https://instagram.com/prkhdv" class="contact-item">
         Instagram
       </a>
 
