@@ -1,23 +1,17 @@
 <template>
   <div class="component-header">
-    <div class="name-and-position">
-      <Title class="name">
-        Гордей Переходов
-      </Title>
-
-      <div class="position">
-        fullstack designer
-      </div>
+    <div class="logo">
+      <img src="@/assets/logo.svg" alt />
     </div>
 
     <div class="contacts">
-      <a href="https://t.me/prkhdv" class="contact-item">
+      <ExternalLink href="https://t.me/prkhdv" class="contact-item">
         Telegram
-      </a>
+      </ExternalLink>
 
-      <a href="https://instagram.com/prkhdv" class="contact-item">
+      <ExternalLink href="https://instagram.com/prkhdv" class="contact-item">
         Instagram
-      </a>
+      </ExternalLink>
 
       <a href="tel:8 999 201-31-98" class="contact-item phone">
         8 999 201-31-98
@@ -29,12 +23,12 @@
 <script lang="ts">
 import Vue from 'vue';
 
-import Title from '@/components/Title';
+import ExternalLink from '@/components/ExternalLink';
 
 export default Vue.extend({
   name: 'Header',
   components: {
-    Title,
+    ExternalLink,
   },
 });
 </script>
@@ -44,23 +38,6 @@ export default Vue.extend({
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-}
-
-.name-and-position {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.position {
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
-  margin-top: 7px;
 }
 
 .contacts {

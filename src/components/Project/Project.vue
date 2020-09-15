@@ -57,6 +57,6 @@ export default Vue.extend({
 }
 
 .img {
-  max-height: 300px;
+  width: 100%;
 }
 </style>

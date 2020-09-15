@@ -63,6 +63,7 @@ export default Vue.extend({
   }
 
   &.is-active {
+    color: #000;
     font-weight: bold;
   }
 }
